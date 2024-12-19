@@ -446,6 +446,12 @@ PRODUCT_PACKAGES += \
     libnanopb \
     libnetmgr \
     libnetmgr_common \
+    libnetmgr_datapath_proxy \
+    libnetmgr_sscm3 \
+    libnetmgr_utils \
+    libnetmgrmodemproxy \
+    libnetmgrportutils \
+    libnetmgrxfrmutils \
     libnlnetmgr \
     libofflinelog \
     libos \
@@ -482,6 +488,7 @@ PRODUCT_PACKAGES += \
     libsensorslog \
     libshotsuggestion \
     libshotsuggestion_engines \
+    libshsc \
     libskeymaster4device \
     libsmartfocus_interface \
     libsnap_compute \
@@ -554,9 +561,12 @@ PRODUCT_PACKAGES += \
     vendor.samsung.hardware.bluetooth@2.0 \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.hyper-V2-ndk_platform \
-    vendor.samsung.hardware.radio.bridge@2.0 \
-    vendor.samsung.hardware.radio.bridge@2.1 \
-    vendor.samsung.hardware.radio.channel@2.0 \
+    vendor.samsung.hardware.radio-V1-ndk \
+    vendor.samsung.hardware.radio.bridge-V1-ndk \
+    vendor.samsung.hardware.radio.channel-V1-ndk \
+    vendor.samsung.hardware.radio.data-V1-ndk \
+    vendor.samsung.hardware.radio.messaging-V1-ndk \
+    vendor.samsung.hardware.radio.sim-V1-ndk \
     vintf-codecsolution-V2-ndk_platform \
     capi_v2_aptX_CLHDAD_Encoder \
     libQ6MSFR_manager_skel \
@@ -581,6 +591,9 @@ PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3-service-qti-hta.xml \
     android.hardware.neuralnetworks@1.3-service-qti.xml \
     manifest_android.hardware.drm@1.3-service.widevine.xml \
+    vendor.samsung.hardware.radio.exclude.qcom.xml \
+    vendor.samsung.hardware.radio_manifest_2_33.xml \
+    vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     vendor.samsung.hardware.thermal@1.0-manifest.xml \
     adpl \
     adsprpcd \
